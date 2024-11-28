@@ -55,3 +55,20 @@
 .factory {
   color: white;
 }
+
+@media (max-width: 760px) {
+  .process-item::after {
+    right: 50%;
+    bottom: -2.5rem;
+    height: 2rem;
+    width: 1.5px;
+    top: unset;
+  }
+  .process {
+    height: unset;
+  }
+  .factory {
+    width: 100%;
+    text-align: center;
+  }
+}
