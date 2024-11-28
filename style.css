@@ -64,8 +64,16 @@
     width: 1.5px;
     top: unset;
   }
+  .process-item {
+    background: #6c48c5;
+  }
   .process {
     height: unset;
+    width: 80%;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    background: #7e60bf;
   }
   .factory {
     width: 100%;
